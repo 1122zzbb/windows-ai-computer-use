@@ -1,0 +1,11 @@
+# RealMouse Pipeline Script (.rmc demo)
+focus "Microsoft Edge"
+sleep 100
+ocrw "开始" --click
+sleep 200
+wheel -4 500 500
+sleep 150
+ocrw "账号" --toright 50 --type "admin"
+ocrw "密码" --toright 50 --type "123456"
+ocrw "记住密码" --toleft 30 --click
+ocrw "登录" --click
